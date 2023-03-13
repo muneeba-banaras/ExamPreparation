@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Activity1</string>
+    <string-array name="simple_que">
+        <item>What do you mean by an operating system?</item>
+        <item> What are its basic functions?</item>
+        <item> Why is the operating system important?</item>
+        <item> What is the main purpose of an OS? </item>
+        <item>  What are the different types of OS?</item>
+    </string-array>
+
+    <string-array name="simple_ans">
+        <item>Operating System (OS) is basically a software program that manages and handles all resources of a computer such as hardware and software. The first OS was introduced in the early 1950s known as GMOs. An OS is responsible for managing, handling, and coordinating overall activities and sharing of computer resources. It acts as an intermediary among users of computer and computer hardware.</item>
+        <item>There are many functions of the OS. Some of the important functions of OS are given below:
+
+                1: Memory and Processor Management
+                2: Providing user interface to users
+                3: File Management and Device Management
+                4: Scheduling of resources and jobs
+                5: Error Detection
+                6: Security</item>
+
+        <item> OS is the most essential and vital part of a computer without which it is considered useless. It enables an interface or acts like a link for interaction between computer software that is installed on OS and users. It also helps to communicate with hardware and also maintains balance among hardware and CPU. It also provides services to users and a platform for programs to run on. It performs all common tasks applications require. </item>
+        <item> The main purpose of an OS is to execute user programs and make it easier for users to understand and interact with computers as well as run applications. It is specially designed to ensure that the computer system performs better by managing all computational activities. It also manages computer memory, processes, and operation of all hardware and software.</item>
+        <item> 1: Batched OS (Example: Payroll System, Transactions Process, etc.)
+                2: Multi-Programmed OS (Example: Windows O/S, UNIX O/S, etc.)
+                3: Timesharing OS (Example: Multics, etc.)
+                4: Distributed OS (LOCUS, etc.)
+                5: Real-Time OS (PSOS, VRTX, etc.)
+                </item>
+    </string-array>
+
+    <string-array name="tough_que">
+
+        <item>What is RAID structure in OS?</item>
+
+        <item> What is GUI? </item>
+
+        <item> What is a Pipe and when it is used?</item>
+
+        <item>  What is a bootstrap program in OS?</item>
+
+        <item>What is virtual memory?</item>
+    </string-array>
+
+    <string-array name="tough_ans">
+        <item> RAID (Redundant Arrays of Independent Disks) is a method used to store data on Multiple hard disks therefore it is considered as data storage virtualization technology that combines multiple hard disks. It simply balances data protection, system performance, storage space, etc. It is used to improve the overall performance and reliability of data storage. It also increases the storage capacity of the system and its main purpose is to achieve data redundancy to reduce data loss. </item>
+        <item> GUI (Graphical User Interface) is basically a type of user interface that allows users to use graphics to interact with OS. GUI is created because it is more user-friendly, less complex, and easier to understand rather than a command-line interface. Its main goal is to increase efficiency and ease of use. Instead of having to memorize commands, users can just click on a button to simply execute the procedure. Examples of GUI include Microsoft Windows, macOS, Apple’s iOS, etc.</item>
+
+        <item> The pipe is generally a connection among two or more processes that are interrelated to each other. It is a mechanism that is used for inter-process communication using message passing.  One can easily send information such as the output of one program process to another program process using a pipe. It can be used when two processes want to communicate one-way i.e., inter-process communication (IPC).</item>
+        <item>It is generally a program that initializes OS during startup i.e., first code that is executed whenever computer system startups. OS is loaded through a bootstrapping process or program commonly known as booting. Overall OS only depends on the bootstrap program to perform and work correctly. It is fully stored in boot blocks at a fixed location on the disk. It also locates the kernel and loads it into the main memory after which the program starts its execution. </item>
+        <item> It is a memory management technique feature of OS that creates the illusion to users of a very large (main) memory. It is simply space where a greater number of programs can be stored by themselves in the form of pages. It enables us to increase the use of physical memory by using a disk and also allows us to have memory protection. It can be managed in two common ways by OS i.e., paging and segmentation. It acts as temporary storage that can be used along with RAM for computer processes.
+
+</item>
+
+
+    </string-array>
+
+
+</resources>
